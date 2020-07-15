@@ -56,3 +56,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # mes supers gems
 # encore des modifs pour toi lesy baby eh!!
+
+group :production do
+  gem 'pg'
+end
